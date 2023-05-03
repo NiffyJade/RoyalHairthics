@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo1.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo1.png" alt="Royal_Hairthics"></a>
+            </div>
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html" class="nav-link" active>home</a>
+                    </li>
+                    <li>
+                        <a href="service.html" class="nav-link">services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">gallery</a>
+                    </li>
+                    <li>
+                        <a href="blog.html" class="nav-link">blog</a>
+                    </li>
+                    <li>
+                        <a href="shop.html" class="nav-link">shop</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav-link">contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Start Gallery Section-->
+    <section class="gallery" id="gallery">
+        <div class="gallery-content">
+            <div class="section-title">
+                <h1>gallery</h1>
+                <span>the princesses of our instagram</span>
+            </div>
+            <div class="gallery-list-img">
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo25.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo1.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo2.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo3.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo4.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo5.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo6.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo7.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo8.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo9.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo10.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo11.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo12.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo13.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo14.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo15.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo16.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo17.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo18.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo19.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo20.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo21.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo22.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo23.png" alt="#">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo24.png" alt="#">
+                </div>
+            </div>
+            <button class="btn">see more</button>
+        </div>
+    </section>
+    <!-- End Gallery Section-->
+
+    <footer class="footer" id="contact">
+        <div class="copy">
+            <p>&copy; All Rights Reserved To Royal_Hairthics</p>
+            <span>Created by 🤎 NiffyJade</span>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        $(".gallery-img").slice(0, 8).show()
+        $(".btn").on("click", function() {
+            $(".gallery-img:hidden").slice(0, 16).slideDown()
+        });
+    </script>
+</body>
+
+</html>
